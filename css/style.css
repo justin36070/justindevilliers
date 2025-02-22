@@ -1,19 +1,33 @@
-body{
-    background-color: rgb(1, 114, 151);
+:root {
+    --main-bg-color: rgb(1, 114, 151);
+    --highlight-color: #e4c3ad;
+    --section-bg-light: rgb(2, 107, 245);
+    --section-bg-dark: rgb(60, 17, 252);
+}
+.body, .body2, .body3, .body4, .body5, .body6 {
+    font-size: medium;
+    float: left;
+    margin: 10px;
+    Border-radius: 10px;
     padding-left: 10px;
+    width: 350px;
+    height: 450px;
+}
+
+body{
+    background-color: var(--main-bg-color);
 }
 h1{
     color: rgb(0, 0, 0);
     }
 h2{
-    color: #e4c3ad;
     text-align: center;
 
 }
-h3{
-    color: #e4c3ad;
+h2, h3 {
+    color: var(--highlight-color);
 }
-.heading{
+header{
     background-color: cyan;
     width : 100%;
     height: 50px;
@@ -31,71 +45,71 @@ h3{
 }
 .body{
     background-color: rgb(60, 17, 252);
-    width: 350px;
-    height:450px;
-    font-size: medium;
-    float: left;
-    margin: 10px;
-    Border-radius: 10px;
+    
+    
+    
+    
+   
+    
     font-family: Arial, Helvetica, sans-serif;
-    padding-left: 10px;
+    
 }
 .body2{
     background-color: rgb(2, 107, 245);
-    width: 350px;
-    height:450px;
-    font-size: medium;
-    float: left;
-    margin: 10px;
-    Border-radius: 10px;
+    
+    
+    
+    
+    
+    
     font-family:sans-serif;
-    padding-left: 10px;
+    
 }
 .body3{
     background-color: rgb(9, 134, 252);
-    width: 350px;
-    height:450px;
-    font-size: medium;
-    float: left;
-    margin: 10px;
-    Border-radius: 10px;
+    
+    
+    
+    
+    
+    
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-left: 10px;
+    
     
 }
 .body4{
     background-color: rgb(60, 17, 252);
-    width: 350px;
-    height:450px;
-    font-size: medium;
-    float: left;
-    margin: 10px;
-    Border-radius: 10px;
+    
+   
+    
+    
+    
+    
     font-family: Arial, Helvetica, sans-serif;
-    padding-left: 10px;
+    
 }
 .body5{
     background-color: rgb(2, 107, 245);
-    width: 350px;
-    height:450px;
-    font-size: medium;
-    float: left;
-    margin: 10px;
-    Border-radius: 10px;
+    
+
+    
+    
+    
+    
     font-family:sans-serif;
-    padding-left: 10px;
+    
     
 }
 .body6{
     background-color: rgb(9, 134, 252);
-    width: 350px;
-    height:450px;
-    font-size: medium;
-    float: left;
-    margin: 10px;
-    Border-radius: 10px;
+    
+
+    
+    
+    
+    
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-left: 10px;
+    
     
 }
 nav{
